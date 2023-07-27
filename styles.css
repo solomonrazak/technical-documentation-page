@@ -1,0 +1,171 @@
+*{
+	margin: 5px;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+
+
+aside{
+	position: fixed;
+	left: 0;
+	height: 100%;
+	width: 23%;
+	background-color: white;
+	margin: 20px 10;
+	float: left;
+	overflow: auto;
+
+	
+	
+
+}
+header{
+	font-family: sans-serif;
+	font-size: 30px;
+	margin-left: 30px;
+
+
+
+}
+.nav-list{
+	font-size: 20px;
+	color: grey;
+    margin: 15px 0;
+
+    text-decoration: none;
+    padding: 5px 0;
+    border-top: 1px solid #000000;
+    text-align: center;
+    margin-block-start: 0.5em;
+    list-style-type: none;
+
+   
+
+}
+
+#sideline{
+  border-left: 3px solid #a9a9a9;
+  height: 100%;
+  
+  left: 23.5%;
+  margin-left: -3px;
+  top: 0;
+  position: fixed;
+  
+
+
+}
+
+#main-doc{
+	float: right;
+    width: 75%;
+    height: 100%;
+
+}
+.par-text{
+	font-family: "Times New Roman";
+	margin-left: 33px;
+	margin-top: 10px;
+	color: 	#696969; 
+	font-size: 1em;
+	text-align: justify;
+	word-spacing: 3px;
+	line-height: 1.4;
+
+}
+
+li > .par-li{
+	margin-left: 60px;
+	
+
+	
+}
+section{
+	margin: 15px 0;
+	padding: 10px 0;
+}
+.code-1{
+	margin-left: 40px;
+	height: 80px;
+	background-color: #f5f5f5;
+	width: 95%;
+	color: #696969;
+	padding: 15px 10px;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+span{
+	display: block;
+}
+.code-2{
+	margin-left: 40px;
+	height: 50px;
+	background-color: #f5f5f5;
+	width: 95%;
+	color: #696969;
+	padding: 15px 10px;
+	margin-top: 10px;
+	border-radius: 10px;
+
+}
+.code-3{
+	margin-left: 40px;
+	height:100px;
+	background-color: #f5f5f5;
+	width: 95%;
+	color: #696969;
+	padding: 15px 10px;
+	margin-top: 10px;
+	border-radius: 10px;
+
+}
+.inside-text{
+	display: list-item;
+	margin-left: 40px;
+	font-family: "Times New Roman";
+	margin-left: 90px;
+	margin-top: 10px;
+	color: 	#696969; 
+	font-size: 1em;
+	text-align: justify;
+	word-spacing: 3px;
+	line-height: 1.4;
+}
+.in{
+	display: list-item;
+	list-style-type: circle;
+	
+	font-family: "Times New Roman";
+	margin-left: 140px;
+	margin-top: 10px;
+	color: 	#696969; 
+	font-size: 1em;
+	text-align: justify;
+	word-spacing: 3px;
+	line-height: 1.4;
+}
+a{
+	text-decoration: none;
+}
+.nav-link{
+	color:grey;
+}
+ ul > li >a:hover{
+	color: 	#87cefa;
+}
+ul > li >a:active{
+	color: 	##00ffff;
+}
+
+@media(max-width: 1191){
+	#main-doc{
+		max-width: 1000px;
+
+	}
+}
+
+
+
+
