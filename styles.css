@@ -156,7 +156,7 @@ a{
 	color: 	#87cefa;
 }
 ul > li >a:active{
-	color: 	##00ffff;
+	color: 	#00ffff;
 }
 
 @media(max-width: 1191){
